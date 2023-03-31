@@ -1,0 +1,17 @@
+Ce dépôt contient l’ensemble des scripts R pour faire tourner Cartino1D.
+
+Cartino1D est un logiciel permettant la construction et l’application semi-automatisée d’une modélisation hydraulique 1D à partir d’un MNT à haute résolution.
+
+Cartino1D a d’abord été développé à partir de 2011 au Cerema (https://www.cerema.fr/fr/actualites/outils-phase-cartographie-directive-inondation-cartino-pc ) sous environnement Matlab/Grass pour répondre en particulier à la première phase de la Directive Inondation (2013).
+
+Dans le cadre de l'ANR PICS, la méthode a été basculée sous environnement R par l'Université Gustave Eiffel et le Cerema (https://anr.fr/Projet-ANR-17-CE03-0011, https://pics.ifsttar.fr/ ).
+
+L'originalité vient de l’automatisation de la construction/paramétrisation et du lancement de modèles hydrauliques 1D de type Mascaret ou HEC-RAS, qui est un travail généralement réalisé « manuellement » sur ces logiciels et consommateurs de temps.
+
+La configuration matérielle nécessaire est un PC windows 10 – 8 à 16 Go RAM.
+
+Il existe des dépendances par rapport à des librairies R et les codes hydrauliques Mascaret (http://www.opentelemac.org/ ) et/ou HEC-RAS (https://www.hec.usace.army.mil/software/hec-ras/ ).
+
+La phase de développement initiale étant terminée, le dépôt ne fait plus l’objet d’un suivi de modifications et les auteurs ne s’engagent pas à la prise en compte de demandes externes.
+
+Dernière mise à jour : 31/03/2023
